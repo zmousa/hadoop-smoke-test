@@ -1,0 +1,25 @@
+#!/bin/bash
+
+sudo service zookeeper-server start
+sudo service hadoop-hdfs-datanode start 
+sudo service hadoop-hdfs-namenode start
+sudo service hadoop-yarn-nodemanager start
+sudo service hadoop-yarn-resourcemanager start
+sudo service hadoop-mapreduce-historyserver start
+#sudo service hadoop-0.20-mapreduce-tasktracker start
+#sudo service hadoop-0.20-mapreduce-jobtracker start 
+#sudo service hadoop-0.20-mapreduce-jobtrackerha start 
+sudo service hbase-master start
+sudo service hbase-regionserver start
+#sudo service hbase-rest start
+sudo service hbase-thrift start
+sudo service spark-master start
+#sudo service spark-history-server start
+sudo service spark-worker start
+sudo service sqoop2-server start
+sudo service flume-agent start
+sudo service hive-metastore start
+sudo service hive-server2 start
+sudo service oozie start
+sudo service kafka-server start
+sudo service hue start
